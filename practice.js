@@ -120,7 +120,7 @@ contains(names, 'Colt', function(result){
 function uniq(arr,cb){
   var empty =[];
   for(let i =0; i<arr.length; i++){
-    if(arr[i]!==arr[i+1]&&arr.indexOf(arr[i])==-1){
+    if(arr[i]!==arr[i+1] && arr.indexOf(arr[i])==i){
       empty.push(arr[i]);
     }
   }
